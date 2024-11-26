@@ -1,4 +1,4 @@
-package com.example.student
+package com.example.student2
 
 import android.app.AlertDialog
 import android.content.Context
@@ -11,6 +11,8 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.snackbar.Snackbar
+import com.myproject.student2.R
+import com.myproject.student2.StudentModel
 
 class StudentAdapter(
     private val students: MutableList<StudentModel>, // Mutable for dynamic updates
